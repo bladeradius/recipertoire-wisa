@@ -8,7 +8,7 @@ using Recipertoire.DataAccess.Models;
 
 namespace Recipertoire.DataAccess.Repositories
 {
-    interface IEventRepository
+    public interface IEventRepository
     {
         IEnumerable<Event> List();
         bool Create(Event newEvent);
